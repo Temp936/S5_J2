@@ -3,13 +3,15 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 
+
+
 public class Main {
     public static void function(String str){ //задание 2
         str = str.trim();
         String[] words = str.split(" ");
 
         ArrayList<String> text = new ArrayList<String>();
-        for(int i = 0; i < words.length; i++) text.add(words[i]);
+       for(int i = 0; i < words.length; i++) text.add(words[i]);
 
         ArrayList<Integer> counts = new ArrayList<Integer>();
 
